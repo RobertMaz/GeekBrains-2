@@ -32,5 +32,6 @@ public class Main {
         for(Map.Entry<String, Integer> pair : dictionary.entrySet()){
             System.out.println(pair.getKey() + " : " + pair.getValue());
         }
+        scan.close();
     }
 }
